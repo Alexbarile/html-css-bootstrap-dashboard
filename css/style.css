@@ -12,3 +12,57 @@ header{
     height: 70px;
     background-color: whitesmoke;
 }
+
+/* WRAPPER */
+
+.wrapper{
+    width: 100vw;
+    height: calc(100vh - 70px);
+    display: flex;
+}
+
+/* ASIDE */
+
+aside{
+    height: calc(100vh - 70px);
+    background-color: rgba(5,30,52,225);
+    width: 150px;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nav-top{
+    background-color: green;
+    height: 100px;
+    align-items: center ;
+}
+
+.nav-bottom{
+    height: 40px;
+    background-color: green;
+}
+
+/* MAIN */
+
+main{
+    width: calc(100vw - 150px);
+    background-color: red;
+    height: calc(100vh - 70px);
+}
+
+.main-top{
+    width: 100%;
+    height: 15%;
+    background-color: rgba(27,114,232,225);
+}
+
+.main-center{
+    width: 100%;
+    height: 85%;
+    background-color: whitesmoke;
+}
