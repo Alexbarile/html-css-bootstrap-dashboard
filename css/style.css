@@ -5,7 +5,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 /* HEADER */
+
 
 header{
     width: 100%;
@@ -13,7 +15,9 @@ header{
     background-color: whitesmoke;
 }
 
+
 /* WRAPPER */
+
 
 .wrapper{
     width: 100vw;
@@ -21,7 +25,9 @@ header{
     display: flex;
 }
 
-/* ASIDE */
+
+/* SIDEBAR */
+
 
 aside{
     height: calc(100vh - 70px);
@@ -36,18 +42,36 @@ nav{
     flex-direction: column;
 }
 
-.nav-top{
-    background-color: green;
-    height: 100px;
-    align-items: center ;
+.nav-top .aside-icon{
+    margin-top: 15px;
 }
 
-.nav-bottom{
-    height: 40px;
-    background-color: green;
+.aside-icon{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.aside-icon i{
+    margin-right: 10px;
+}
+
+.aside-icon ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.aside-icon li{
+    padding: 10px;
+    font-size: 15px;
+}
+
 
 /* MAIN */
+
 
 main{
     width: calc(100vw - 150px);
