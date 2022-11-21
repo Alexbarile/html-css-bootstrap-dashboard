@@ -15,8 +15,32 @@ header{
     background-color: whitesmoke;
 }
 
+.bg-white{
+    background-color: white;
+}
+
 .only-logo img{
-    width: 10%;
+    width: 60px;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.ul__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.ul__list li{
+    padding: 15px;
 }
 
 /* WRAPPER */
@@ -80,6 +104,7 @@ main{
     width: calc(100vw - 150px);
     background-color: red;
     height: calc(100vh - 60px);
+    overflow-y: auto;
 }
 
 /* main top */
