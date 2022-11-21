@@ -184,8 +184,14 @@ main{
        } 
  }
 
+
 /* HOVER */
+
 
 .aside-icon li:hover{
     background-color: rgba(255, 255, 255, 0.295);
+}
+
+tbody tr:hover{
+    background-color: rgba(128, 128, 128, 0.486);
 }
