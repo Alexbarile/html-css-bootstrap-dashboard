@@ -33,7 +33,6 @@ header{
 .ul__list{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     list-style-type: none;
     padding: 0;
     margin-bottom: 0;
@@ -130,14 +129,19 @@ main{
     background-color: whitesmoke;
 }
 
-.row .fa-arrows-left-right{
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
-    background-color: rgb(176, 115, 2);
-    color: white;
-    border-radius: 50px;
-    font-size: 25px;
-    display: inline;
-    vertical-align: middle;
+ .avatar img{
+    width: 30px
+ }
+
+ .font-size-15{
+    font-size: 10px;
+ }
+
+ .list-group input{
+    margin: 10px;
+ }
+
+ .card-body p, .list-group li, .accordion-header button, table{
+    color: gray;
+    font-size: 13px;
  }
